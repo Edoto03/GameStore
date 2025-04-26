@@ -24,27 +24,29 @@ An online game store platform inspired by Steam and Epic Games, developed as a J
 
 ## Project Structure
 
+```
 src
 └─ bg.sofia.uni.fmi.mjt.gameplatform.store
-├──── item
-│ ├──── category
-│ │ ├─ DLC.java
-│ │ ├─ Game.java
-│ │ ├─ GameBundle.java
-│ │ └─ Item.java 
-│ │
-│ ├──── filter
-│ │ ├─ ItemFilter.java
-│ │ ├─ PriceItemFilter.java
-│ │ ├─ RatingItemFilter.java
-│ │ ├─ ReleaseDateItemFilter.java
-│ │ └─ TitleItemFilter.java
-│ │
-│ └──── StoreItem.java 
-│
-├──── GameStore.java
-├──── GameStoreDemo.java 
-└──── StoreAPI.java
+    ├──── item
+    │      ├──── category
+    │      │      ├─ DLC.java
+    │      │      ├─ Game.java
+    │      │      ├─ GameBundle.java
+    │      │      └─ Item.java
+    │      │
+    │      ├──── filter
+    │      │      ├─ ItemFilter.java
+    │      │      ├─ PriceItemFilter.java
+    │      │      ├─ RatingItemFilter.java
+    │      │      ├─ ReleaseDateItemFilter.java
+    │      │      └─ TitleItemFilter.java
+    │      │
+    │      └──── StoreItem.java
+    │
+    ├──── GameStore.java
+    ├──── GameStoreDemo.java
+    └──── StoreAPI.java
+```
 
 ## Author
 
